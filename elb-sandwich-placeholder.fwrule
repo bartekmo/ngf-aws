@@ -6640,7 +6640,7 @@ RuleSet{
 			srvBlock={0}
 			userBlock={0}
 			macBlock={0}
-			deactivated={0}
+			deactivated={1}
 			timeAllow={0,0,0,0,0,0,0,0}
 			dynamic={0}
 			usesocket={0}
