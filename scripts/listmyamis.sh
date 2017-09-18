@@ -2,7 +2,7 @@ ver="v623-108-HF836-20170810"
 #ver="v703-087-20170810"
 #ver="v710-371-HF835"
 
-echo "Listing AMI images for CudaNGF release $ver in all regions"
+>&2 echo "Listing AMI images for CudaNGF release $ver in all regions"
 
 for reg in `aws ec2 describe-regions --output text --query 'Regions[*].{Region:RegionName}'`
   do
